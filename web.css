@@ -1,0 +1,569 @@
+/* styling of heading web page  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 2px 2px 10px black; */
+   align-items: center;
+  
+ 
+   
+   
+
+}
+#header .logo{
+    margin-left: 100px;
+}
+
+
+
+nav {
+    height: inherit;
+    width: 20%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    line-height: 3;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+
+    height: inherit;
+
+}
+
+nav ul li a {
+    font-size: large;
+    text-decoration: none;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button a{
+    color: black;
+    background-color: gray;
+    border-radius: 100px;
+    padding: 0 20px;
+    font-size: large;
+    margin-right: 50px;
+} */
+/* styling of heading web page  end */
+
+
+
+
+/* body of web page start */
+
+
+
+/* #banner::before{
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    top: 68%;
+    content: "";
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(170deg);
+    transform: skewY(170deg);
+    width: 100%;
+    z-index: 0;
+} */
+
+
+#banner {
+    background: transparent linear-gradient(to right, #09aeea 0%, #09aeea 100%) repeat scroll 0 0;
+    padding: 50px 0;
+    
+
+}
+
+#banner .parent-container {
+    display: flex;
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+}
+
+
+#banner .child1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .child .text-container {
+    padding-right: 100px;
+}
+
+
+
+
+#banner .child1 h1 {
+    color: #fff;
+    font-size: 44px;
+
+    font-family: montserrat, sans-serif
+}
+
+#banner .child1 p {
+    color: #f5f5f5;
+
+    font-size: 19px;
+    margin: 15px 0 30px;
+    line-height: 1.5;
+}
+
+#banner .child .button a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 18px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    border-radius: 8px;
+    margin-right: 8px;
+    font-family: montserrat, sans-serif;
+
+
+
+}
+
+#banner .child2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#banner .image-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px 0 rgba(207, 15, 15, 0.18);
+}
+
+#banner .child2 .image-container img {
+    width: 550px;
+
+
+}
+
+/* body of web page end */
+
+
+
+/* start of new body of web page */
+
+
+
+
+#services h1 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+
+.parent-container-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: auto;
+    gap: 20px;
+}
+
+.child-service-container {
+    width: 250px;
+}
+
+.child-service-container .icon-container {
+    text-align: center;
+    width: 100%;
+    max-width: 120px;
+    height: 100%;
+
+    min-height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 80px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.18);
+}
+
+.child-service-container .icon-container img {
+    max-width: 68px;
+    margin-top: 26px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+p {
+    text-align: center;
+}
+#services h4 span{
+    color: blue;
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 300px) {
+    #banner .child .button {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #banner .parent-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #banner .image-container {
+        width: 100%;
+        margin: 10px;
+    }
+
+
+
+    #banner .child2 .image-container img {
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    #banner .child .button a {
+        background-color: violet;
+
+    }
+
+    #banner .parent-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #banner .image-container {
+        width: 100%;
+        margin: 10px;
+    }
+
+
+
+    #banner .child2 .image-container img {
+        width: 100%;
+    }
+
+
+    #banner .child .button {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #banner .parent-container {
+        
+    } 
+    #banner .image-container {
+        width: 100%;
+    }
+
+    #banner .child2 .image-container img {
+        width: 100%;
+    }
+
+
+
+}
+
+/* end of new body of web page */
+
+/* start of video for body */
+
+#main-body{
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f1f1f1 0%, #fcfcfc 100%) repeat scroll 0 0;
+    margin-top: 60px;
+    height: 450px;
+
+}
+#main-body .parent-container{
+    display: flex;
+    justify-content: center;
+
+}
+#main-body .parent-container .child-container2{
+    height: 350px;
+    background-color: #fff;
+  width: 600px;
+  margin-right: 150px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+#main-body .child-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-body .child-container1 h1{
+    color: #222;
+    font-size: 40px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+
+#main-body img{
+    width: 100%;
+   height:100%;
+   margin-right: 150px;
+   padding: 30px;
+ 
+
+}
+#main-body  span{
+    color: blue;
+   
+
+}
+@media only screen and (max-width:600px){
+
+#main-body{
+    height: 600px;
+    
+}
+
+
+
+    #main-body .parent-container{
+        
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+#main-body .child-container1 h1{
+    padding: 30px;
+}
+
+    
+
+
+
+}
+@media only screen and (max-width:765px){
+    nav{ display: none;}
+    
+    
+    
+    .call-button{
+        display: none;
+
+    }
+
+}
+
+#services .icon-container:hover{
+    transform: scale(1.2);
+}
+
+#services h4:hover{
+    font-size: 20px;
+    color: #09aeea;
+}
+#services p:hover{
+    font-size: 17px;
+    color: red;
+}
+
+
+nav ul li a:hover{
+transform: scale(1.2);
+color: goldenrod;
+}
+
+
+#header .call-button:hover{
+    transform: scale(1.2);
+    padding: 10px;
+
+    
+    
+}
+
+#banner p:hover{
+    font-size: 18px;
+    color: black;
+}
+#banner .button a:hover{
+    font-size: 20px;
+    background-color: goldenrod;
+    
+}
+
+#banner .image-container:hover{
+    
+    transform: scale(1.1);
+}
+#main-body h1:hover{
+    transform: scale(1.1);
+   
+}
+#main-body .child-container2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* new body */
+
+#demos{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.unique{
+    color: blue;
+}
+
+#breezy .parent-container .children img{
+   width: 250px;
+   
+    
+}
+
+#breezy .parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: auto;
+    gap: 20px;
+}
+
+#breezy .animated{
+    
+    width: 250px;
+    height: 200px;
+    
+    border-radius: 10px;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.18);
+    
+   
+    
+}
+
+
+span{
+    color: black;
+}
+#breezy h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: blue;
+    
+    
+}
+#breezy .animated:hover{
+    transform: scale(1.1);
+}
+
+#breezy a{
+    text-decoration: none;
+}
+
+
+
+/* footer */
+#footer{
+    margin-top: 60px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f1f1f1 0%, #fcfcfc 100%) repeat scroll 0 0;
+}
+
+#footer .start{
+text-align: center;
+padding-top: 80px;
+font-size: 26px;
+}
+#footer .get{
+    text-align: center;
+padding-top: 50px;
+
+
+}
+#footer .get button{
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #9700e5 0%, #09aeea 100%) repeat scroll 0 0;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+#footer .get button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+   
+   
+
+}
+#footer .get button:hover{
+    transform: scale(1.2);
+}
+/* ending */
+#ending h3{
+    text-align: center;
+    padding-top: 90px;
+    color: #666;
+
+}
+
+
+
+
